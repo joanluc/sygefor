@@ -1,0 +1,14 @@
+# date.fr.yml
+diff.ago.year: 1 an a|que i a  %count% ans 
+diff.ago.month: 1 mes a|que i a %count% mes 
+diff.ago.day: 1 dia a|que i a %count% dias 
+diff.ago.hour: 1 òra a|que i a %count% òras 
+diff.ago.minute:  1 minuta a |que i a %count% minutas
+diff.ago.second:  1 segonda a |que i a %count% segondas
+diff.empty: adara
+diff.in.second: dens 1 segonda|dens %count% segondas
+diff.in.hour: dens 1 òra|dens %count% òras
+diff.in.minute: dens 1 minuta|dens %count% minutas
+diff.in.day: dens 1 dia|dens %count% dias
+diff.in.month: dens 1 mes|dens %count% mes
+diff.in.year: dens 1 an|dens %count% ans
