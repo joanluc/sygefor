@@ -1,0 +1,541 @@
+CONTRACTE DE LICÉNCIA DE LOGICIAU LIURE CeCILL
+
+Version 2.1 deu 2013-06-21
+
+
+ Avertiment
+
+Aqueth contracte qu'ei ua licéncia de logiciau liure gessida d'ua concertacion
+enter los sons autors entà que lo respècte de dus grans principis presidesca a
+la soa redaccion:
+
+ * d'ua part, lo respècte deus principis de difusion deus logiciaus
+ liures: accès au còdi sorsa, drets estenuts conferits aus utilizators,
+ * d'auta part, la designacion d'un dret aplicader, lo dret
+ francés, a lo quau ei confòrma, tant au par deu dret de la
+ responsabilitat civila qui dret de la proprietat intellectuau e
+ de la proteccion qui auhereish aus autors e titulars deus drets
+ patrimoniaus sus un logiciau.
+
+Los autors de la licéncia CeCILL (Aqueth[qu'a] C[nrs] I[nria] L[ogiciel] L[ibre])
+que son :
+
+Comissariat a l'energia atomica e a las energias alternativas - CEA,
+establiment public de recèrca a caractèr scientific, tecnic e
+industriau, dont lo sèti ei situat 25 carrèra Leblanc, immòbla Lo Ponent
+D, 75015 París.
+
+Centre Nacionau de la Recèrca Scientifica - CNRS, establiment
+public a caractèr scientific e tecnologic, dont lo sèti ei
+situat 3 carrèra Miquèu Ange, 75794 París CEDEX 16.
+
+Institut Nacionau de Recèrca en Informatica e en Automatica -
+Inria, establiment public a caractèr scientific e tecnologic,
+dont lo sèti ei situat Maine de Voluceau, Rocquencourt, BP 105, 78153
+Lo Chesnay CEDEX.
+
+
+ Preambule
+
+Aqueth contracte qu'ei ua licéncia de logiciau liure dont l'objectiu ei de
+conferir aus utilizators la libertat de modificacion e de
+redistribucion deu logiciau regit per aquera licéncia dens l'encastre d'un
+modèle de difusion en logiciau liure.
+
+L'exercici d'aqueras libertats qu'ei assortit de daubuns devers a la carga
+deus utilizators entà preservar aqueth estatut pendent las
+redistribucions ulterioras.
+
+L'accessibilitat au còdi sorsa e los drets de copia, de modificacion
+e de redistribucion qui'n resultan qu'an entà contrapartida d'auherir pas
+aus utilizators qu'ua guarantida limitada e de har pas pesar sus
+l'autor deu logiciau, lo titular deus drets patrimoniaus e los
+concédants successius qu'ua responsabilitat limitada.
+
+En aqueth esgard l'atencion de l'utilizator qu'ei atirada suus riscs
+associats au cargament, a l'utilizacion, a la modificacion e/o au
+desvolopament e a la reproduccion deu logiciau per l'utilizator per'mor de
+ la soa especificitat de logiciau liure, qui ac pòt har complèxe a
+manipular e qui ac resèrva donc a desvolopaires o deus
+professionaus avertits possedint coneishenças informaticas
+apregondidas. Los utilizators que son donc convidats a cargar e testar
+l'adeqüacion deu logiciau aus lors besonhs dens condicions permetent
+d'assegurar la securitat deus lors sistèmas e/o de las lors dadas e, mei
+generaument, a l'utilizar e l'espleitar dens las medishas condicions de
+securitat. Aqueth contracte que pòt estar reprodusit e difusat liurament, devath
+resèrva d'ac conservar en l'estat, shens ajustèr ni supression de clausas.
+
+Aqueth contracte qu'ei susceptible de s'aplicar a tot logiciau dont lo
+titular deus drets patrimoniaus decideish de sosméter l'espleitacion a las
+disposicions qui contien.
+
+Ua lista de questions sovent pausadas que's tròba suu site web
+oficiau de la familha de las licéncias CeCILL
+(http://www.cecill.info/index.fr.html) entà tota clarificacion qui
+haré besonh.
+
+Article 1 - DEFINITIONS
+
+Dens aqueth contracte, los tèrmes seguents, quan sian escrivuts dab ua
+letra capitau, qu'auràn la significacion seguenta :
+
+Contracte: designa lo present contracte de licéncia, las soas eventuaus versions
+posterioras e annèxas.
+
+Logiciau: designa lo logiciau devath la soa fòrma de Còdi Objècte e/o de Còdi
+Sorsa e se s'escad la soa documentacion, dens lo lor estat au moment de
+l'acceptacion deu Contracte peu Licenciat.
+
+Logiciau Iniciau: designa lo Logiciau devath la soa fòrma de Còdi Sorsa e
+eventuaument de Còdi Objècte e se s'escad la soa documentacion, dens
+lo lor estat au moment de la lor prumèra difusion devath los tèrmes deu Contracte.
+
+Logiciau Modificat: designa lo Logiciau modificat per au mensh ua
+Contribucion.
+
+Còdi Sorsa: designa l'ensemble de las instruccions e de las linhas de
+programa deu Logiciau e a lo quau l'accès hè besonh en vista de
+modificar lo Logiciau.
+
+Còdi Objècte: designa los fichèrs binaris gessits de la compilacion deu
+Còdi Sorsa.
+
+Titular: designa l'o los detentors deus drets patrimoniaus d'autor
+suu Logiciau Iniciau.
+
+Licenciat: designa l'o los utilizators deu Logiciau avent acceptat lo
+Contracte.
+
+Contribuïdor: designa lo Licenciat autor d'au mensh ua Contribucion.
+
+Concedint: designa lo Titular o tota persona fisica o morau
+distribuïnt lo Logiciau devath lo Contracte.
+
+Contribucion: designa l'ensemble de las modificacions, correccions,
+traduccions, adaptacions e/o navèras foncionalitats integradas dens
+lo Logiciau per tot Contribuïdor, atau com tot Module Intèrne.
+
+Module: que designa un ensemble de fichèrs sorsas dont la lor
+documentacion qui permet de realizar foncionalitats o servicis
+suplementaris ad aqueths hornits peu Logiciau.
+
+Module Extèrne: que designa tot Module, non derivat deu Logiciau, tau com aqueth
+Module e lo Logiciau que s'executan dens espacis d'adreçatge
+diferents, l'un aperant l'aute au moment de la lor execucion.
+
+Module Intèrne: que designa tot Module ligat au Logiciau de manièra que
+ s'executan dens lo medish espaci d'adreçatge.
+
+GNU GPL: designa la GNU General Public License dens la soa version 2 o
+tota version ulteriora, tala com publicada per Free Logiciau Foundation
+Inc.
+
+GNU Affero GPL: designa la GNU Affero General Public License dens la soa
+version 3 o tota version ulteriora, tala com publicada per Free
+Logiciau Foundation Inc.
+
+EUPL: designa la Licéncia Publica de l'Union Europèa dens la soa version
+1.1 o tota version ulteriora, tala com publicada per la Comission
+Europèa.
+
+Partidas: designa collectivament lo Licenciat e ac Concedint.
+
+Aqueths tèrmes que s'entenen au singular com au plurau.
+
+ Article 2 - OBJÈCTE
+
+Lo Contracte qu'a entà objècte la concession per ac Concedint au Licenciat d'ua
+licéncia non exclusiva, cessibla e mondiau deu Logiciau tala com
+definida ací-après a l'article 5 <#etendue> entà tota la durada de
+proteccion deus drets portant sus aqueth Logiciau.
+
+Article 3 - ACCEPTACION
+
+3.1 L'acceptacion peu Licenciat deus tèrmes deu Contracte qu'ei famosa
+aquesida pr'amor deu prumèr deus hèits seguents:
+
+ * (i) lo cargament deu Logiciau per tot mejan sustot per
+ telecargament a partir d'un servidor distant o per cargament a partir d'un
+   supòrt fisic;
+ * (ii) lo prumèr exercici peu Licenciat de l'un quau que sia deus
+ drets concedits peu Contracte.
+
+3.2 Un exemplar deu Contracte, contienent sustot un avertiment
+relatiu a las especificitats deu Logiciau, a la restriccion de guarantida e a
+la limitacion a un usatge per utilizators experimentats qu'ei estat metut a
+disposicion deu Licenciat prealablament a la soa acceptacion tau com
+definida a l'article 3.1 <#acceptacion-aquerida> ací dessús e lo Licenciat
+que reconeish n'aver pres coneishença.
+
+
+ Article 4 - ENTRADA EN VIGOR E DURADA
+
+
+ 4.1 ENTRADA EN VIGOR
+
+Lo Contracte enter en vigor a la data de la soa acceptacion peu Licenciat
+tala com definida en 3.1 <#acceptacion-aquesida>.
+
+
+ 4.2 DURADA
+
+Lo Contracte que produsirà los sons efèits pendent tota la durada legau de
+proteccion deus drets patrimoniaus portant suu Logiciau.
+
+
+ Article 5 - ESTENUDA DEUS DRETS CONCEDITS
+
+Ac Concedint que concedeish au Licenciat, qui accèpta, los drets seguents suu
+ Logiciau entà totas destinacions e entà la durada deu Contracte dens
+las condicions ací-après detalhadas.
+
+D'un aute costat, si ac Concedint que detien o que vienè a detiéner un o
+mantun brevet d'invencion protegint tot o partida de las
+foncionalitats deu Logiciau o deus sons compausants, que s'engatja a non pas
+opausar los eventuaus drets conferits per aqueths brevets aus Licenciats
+successius qui utilizarén, qu'espleitarén o que modificarén lo
+Logiciau . En cas de cession d'aqueths brevets, ac Concedint que s'engatja a
+har repréner las obligacions deu present alinea aus cessionnaires.
+
+
+ 5.1 DRET D'UTILIZACION
+
+Lo Licenciat qu'ei autorizat a utilizar lo Logiciau, shens restriccion tà çò deus
+ maines d'aplicacion, estant ací-après precisat qu'aquò que compòrta :
+
+ 1.
+
+ la reproduccion permanenta o provisòria deu Logiciau en tot o
+ partida per tot mejan e devath tota fòrma.
+
+ 2.
+
+ lo cargament, l'afichatge, l'execucion, o l'estocatge deu Logiciau
+ sus tot supòrt.
+
+ 3.
+
+ la possibilitat de n'observar, de n'estudiar, o de'n testar lo
+ foncionament entà determinar las idèas e principis qui son a
+ la basa de quau que sia element d'aqueth Logiciau; e açò, quan
+ lo Licenciat qu'efectua tota operacion de cargament, d'afichatge,
+ d'execucion, de transmission o d'estocatge deu Logiciau qui ei en
+ dret d'efectuar en vertut Contracte.
+
+5.2 DRET De PORTAR CONTRIBUCIONS
+
+Lo dret de portar Contribucions que compòrta lo dret de tradusir,
+d'adaptar, d'adobar o de portar tota auta modificacion au Logiciau
+e lo dret de reprodusir lo logiciau en resultant.
+
+Lo Licenciat qu'ei autorizat a portar tota Contribucion au Logiciau devath
+resèrva de mencionar, de faiçon explicita, lo son nom com autor d'aquera
+ Contribucion e la data de creacion d'aquesta.
+
+
+ 5.3 DRET DE DISTRIBUCION
+
+Lo dret de distribucion que compòrta sustot lo dret de difusar, de
+transméter e de comunicar lo Logiciau au public sus tot supòrt e
+per tot mejan atau com lo dret de méter suu mercat a títol
+onerós o gratuit, un o deus exemplars deu Logiciau per tot procediment.
+
+Lo Licenciat qu'ei autorizat a distribuïr copias deu Logiciau, modificat o
+non, a tèrç dens las condicions ací-après detalhadas.
+
+
+ 5.3.1 DISTRIBUCION DEU LOGICIAU SANS MODIFICACION
+
+Lo Licenciat qu'ei autorizat a distribuïr copias confòrmas deu Logiciau,
+devath fòrma de Còdi Sorsa o de Còdi Objècte, a condicion qu'aquera
+distribucion respècta las disposicions deu Contracte dens la lor totalitat e
+sia acompanhada:
+
+ 1.
+
+ d'un exemplar deu Contracte,
+
+ 2.
+
+ d'un avertiment relatiu a la restriccion de guarantida e de
+ responsabilitat deu Concedint tala com prevista aus articles 8
+ <#responsabilite> e 9 <#guarantida>,
+
+e que, dens lo cas on sol lo Còdi Objècte deu Logiciau ei redistribuït,
+lo Licenciat que permétia un accès efectiu au Còdi Sorsa complet deu
+Logiciau entà ua durada d'au mensh 3 ans a comptar distribucion deu
+logiciau, estant entenut que lo còst addicionau d'aquisicion deu Còdi
+Sorsa deurà pas excedir lo simple còst de transferiment de las dadas.
+
+
+ 5.3.2 DISTRIBUCION DEU LOGICIAU QUE MODIFICA 
+
+Quan lo Licenciat que pòrta ua Contribucion au Logiciau, las condicions
+de distribucion deu Logiciau Modificat en resultant que son alavetz sosmetudas a
+l'integralitat de las disposicions deu Contracte.
+
+Lo Licenciat qu'ei autorizat a distribuïr lo Logiciau Modificat, devath fòrma de
+còdi sorsa o de còdi objècte, a condicion qu'aquera distribucion
+respècta las disposicions deu Contracte dens la lor totalitat e sia
+acompanhada:
+
+ 1.
+
+ d'un exemplar deu Contracte,
+
+ 2.
+
+ d'un avertiment relatiu a la restriccion de guarantida e de
+ responsabilitat deu Concedint tala com prevista aus articles 8
+ <#responsabilitat> e 9 <#guarantida>,
+
+e, dens lo cas on sol lo còdi objècte deu Logiciau Modificat ei redistribuït,
+
+ 3.
+
+ d'ua nòta precisant las condicions d'accès efectiu au còdi sorsa
+ complet deu Logiciau Modificat, pendent un periòde d'au mensh 3 ans a
+ comptar distribucion deu Logiciau Modificat, estant entenut que lo
+ còst addicionau d'aquisicion deu còdi sorsa deurà pas excedir
+ lo simple còst de transferiment de las dadas.
+ 
+5.3.3 DISTRIBUCION DEUS MODULES EXTÈRNES
+
+Quan lo Licenciat qu'a desvolopat un Module Extèrne las condicions deu
+Contracte ne s'aplican pas ad aqueth Module Extèrne, qui pòt estar distribuït
+devath un contracte de licéncia diferent.
+
+ 5.3.4 COMPATIBILITE DAB AUTAS LICÉNCIAS
+
+Lo Licenciat que pòt includir un còdi somés a las disposicions d'ua de las
+versions de la licéncia GNU GPL, GNU Affero GPL e/o EUPL dens lo
+Logiciau modificat o non e distribuïr l'ensemble devath las condicions de
+la medisha version de la licéncia GNU GPL, GNU Affero GPL e/o EUPL.
+
+Lo Licenciat que pòt includir lo Logiciau modificat o non dens un còdi somés
+a las disposicions d'ua de las versions de la licéncia GNU GPL, GNU Affero
+GPL e/o EUPL e distribuïr l'ensemble devath las condicions de la medisha
+version de la licéncia GNU GPL, GNU Affero GPL e/o EUPL.
+
+
+ Article 6 - PROPRIETE INTELLECTUAU
+
+
+ 6.1 SUU LOGICIAU INICIAU
+
+Lo Titular qu'ei detentor deus drets patrimoniaus suu Logiciau
+Iniciau . Tota utilizacion deu Logiciau Iniciau qu'ei sosmetuda au respècte
+de las condicions dens las quaus lo Titular a causit de difusar la soa
+òbra e nat aute n'a pas la facultat de modificar las condicions de
+difusion d'aqueth Logiciau Iniciau.
+
+Lo Titular que s'engatja a çò qui lo Logiciau Iniciau rèsta au mensh regida
+peu Contracte e aqueth, entà la durada avuda per mira de l'article 4.2 <#durada>.
+
+
+ 6.2 SUS LAS CONTRIBUCIONS
+
+Lo Licenciat qui a desvolopat ua Contribucion qu'ei titulara sus aquesta
+deus drets de proprietat intellectuau dens las condicions definidas per
+la legislacion aplicadera.
+
+
+ 6.3 SUUS MODULES EXTÈRNES
+
+Lo Licenciat qui a desvolopat un Module Extèrne qu'ei titular sus aqueste
+deus drets de proprietat intellectuau dens las condicions definidas per
+la legislacion aplicadera e que demora liura de la causida deu contracte regint
+la soa difusion.
+
+
+ 6.4 DISPOSICIONS COMUNAS
+
+Lo Licenciat que s'engatja exprèssament :
+
+ 1.
+
+ a non pas suprimir o modificar de quauqua faiçon qu'aqueth sia las
+ mencions de proprietat intellectuau apausadas suu Logiciau;
+
+ 2.
+
+ a reprodusir a l'identic las dits mencions de proprietat
+ intellectuau sus las copias deu Logiciau modificat o non.
+
+Lo Licenciat que s'engatja a non pas portar atenhuda, dirèctament o
+indirèctament, aus drets de proprietat intellectuau deu Titular e/o
+deus Contribuïdors suu Logiciau e a préner, se s'escad, au respècte deu
+  son personau totas las mesuras necessàrias entà assegurar lo
+respècte deus dits drets de proprietat intellectuau deu Titular e/o
+deus Contribuïdors.
+
+Article 7 - SERVICIS QU'ASSÒCIAS 
+
+7.1 Lo Contracte n'obliga pas de nada manièra ac Concedint a la realizacion de
+prestacions d'assisténcia tecnica o de mantenença deu Logiciau.
+
+Totun ac Concedint rèsta liura de prepausar aqueth tipe de servicis. Los
+tèrmes e condicions d'ua tau assisténcia tecnica e/o d'ua tau
+mantenença que seràn alavetz determinats dens un acte separat . Aqueths actes de
+mantenença e/o assisténcia tecnica n'engatjaràn pas que la sola
+responsabilitat deu Concedint qui los prepause.
+
+7.2 Tot parièr, tot Concedint qu'ei liure de prepausar, devath la soa sola
+responsabilitat, aus sons licenciats ua guarantida, qui engatjarà pas qu'eth,
+pendent la redistribucion deu Logiciau e/o deu Logiciau Modificat e aqueth,
+dens las condicions que desire. Aquera guarantida e las modalitats
+financèras de la soa aplicacion que haràn l'objècte d'un acte separat enter ac
+Concedint e lo Licenciat.
+
+
+ Article 8 - RESPONSABILITAT
+
+8.1 Devath resèrva de las disposicions de l'article 8.2
+<#limit-responsabilitat>, lo Licenciat qu'a la facultat, devath resèrva de
+provar la fauta deu Concedint concernit, de sollicitar la reparacion deu
+prejudici dirècte qui patiré pr'amor deu Logiciau e dont portarà
+la pròva.
+
+8.2 La responsabilitat deu Concedint qu'ei limitada aus engatjaments pres en
+aplicacion deu Contracte e ne saberé pas estar engatjada en rason sustot:
+(i) deus domaus devuts a l'inexecucion, totau o parciau, de las soas
+obligacions peu Licenciat, (ii) deus domaus dirèctes o indirèctes
+resultant de l'utilizacion o deus resultats deu Logiciau patits peu
+Licenciat e (iii) mei generaument d'un quau que sia domau indirècte. En particular
+, las Partidas que convienen exprèssament que tot prejudici
+financèr o comerciau (per exemple pèrta de dadas, pèrta de
+beneficis, pèrta d'espleitacion, pèrta de clientèla o de comandas,
+manca a ganhar, troble comerciau quau que sia) o tota accion dirigida
+contra lo Licenciat per un tèrç, que constitueish un domau indirècte e
+n'obresca pas dret a reparacion per ac Concedint.
+
+
+ Article 9 - GUARANTIDA
+
+9.1 Lo Licenciat que reconeish que l'estat actuau de las coneishenças
+scientificas e tecnicas au moment de la mesa en circulacion deu
+Logiciau ne permet pas de'n testar e de'n verificar totas las
+utilizacions ni de detectar l'existéncia d'eventuaus defauts. L'atencion
+deu Licenciat qu'ei estada atirada sus aqueth punt suus riscs associats au
+cargament, a l'utilizacion, la modificacion e/o au desvolopament e a
+la reproduccion deu Logiciau qui son reservats a utilizators avertits.
+
+Que relhèva de la responsabilitat deu Licenciat de controlar, per tots
+mejans, l'adeqüacion deu produit aus sons besonhs, lo son bon foncionament e
+de s'assegurar que causarà pas domaus a las personas e aus bens.
+
+9.2 Ac Concedint que declara de bona fe estar en dret de concedir
+l'ensemble deus drets estacats au Logiciau (comprenent sustot los
+drets avuts per mira de l'article 5 <#etendue>).
+
+9.3 Lo Licenciat que reconeish que lo Logiciau ei hornit "en l'estat" per ac
+Concedint shens auta guarantida, exprèssa o tacita, qui aquera prevista a
+l'article 9.2 <#bona-fe> e sustot shens nada guarantida sus la soa
+valor comerciau, lo son caractèr securizat, innovant o pertinent.
+
+En particular, ac Concedint ne garanteish pas que lo Logiciau ei franc
+d'error, qui foncionarà shens interrupcion, qui serà compatible
+dab l'equipament deu Licenciat e la soa configuracion logicielle ni que 
+plearà los besonhs deu Licenciat.
+
+9.4 Ac Concedint ne garanteish pas, de faiçon exprèssa o tacita, qui lo
+Logiciau pòrta pas atenhuda a un quau que sia dret de proprietat
+intellectuau d'un tèrç portant sus un brevet, un logiciau o sus tot
+aute dret de proprietat. Atau, ac Concedint qu'exclutz tota guarantida au profieit deu
+ Licenciat contra las accions en contrafaiçon qui poirén estar
+diligentées au títol de l'utilizacion, de la modificacion, e de la
+redistribucion deu Logiciau. Totun, si de talas accions son
+exercidas contra lo Licenciat, ac Concedint que'u portarà la soa expertesa
+tecnica e juridica entà la soa defensa . Aquera expertesa tecnica e
+juridica qu'ei determinada au cas per cas enter ac Concedint concernit e
+lo Licenciat dens l'encastre d'un protocòle d'acòrd. Ac Concedint que desgatja
+tota responsabilitat tà çò de l'utilizacion de la denominacion deu
+Logiciau peu Licenciat. Nada guarantida n'ei pas portada tà çò de
+l'existéncia de drets anteriors suu nom deu Logiciau e sus
+l'existéncia d'ua mèrca.
+
+
+ Article 10 - RESILIACION
+
+10.1 En cas de mancament peu Licenciat a las obligacions metudas a la soa
+carga peu Contracte, ac Concedint que poirà cancelar de plen dret lo
+Contracte trenta (30) dias après notificacion adreçada au Licenciat e
+demorada shens efèit.
+
+10.2 Lo Licenciat dont lo Contracte ei cancelat n'ei pas mei autorizat a
+utilizar, modificar o distribuïr lo Logiciau. Totun, totas las
+licéncias qui aurà concedidas anteriorament a l'anullacion deu Contracte
+que demoraràn valides devath resèrva que sian estadas efectuadas en
+conformitat dab lo Contracte.
+
+
+ Article 11 - DISPOSICIONS DIVÈRSAS
+
+
+ 11.1 CAUSA EXTERIORA
+
+Nada de las Partidas ne serà pas responsabla d'un retard o d'un defalhiment
+d'execucion deu Contracte qui seré devut a un cas per fòrça màger, un cas
+fortuit o ua causa exteriora, tala com, sustot, lo maishant
+foncionament o las interrupcions deu hialat electric o de
+telecomunicacion, la paralisi deu hialat ligada a ua ataca
+informatica, l'intervencion de las autoritats governamentaus, las
+catastròfas naturaus, los domaus de las aigas, los tèrratrems,
+lo huec, las explosions, las gravas e los conflictes sociaus, l'estat de
+guèrra...
+
+11.2 Lo hèit, per l'ua o l'aute de las Partidas, d'ométer en ua o
+mantua escadença de's prevaler d'ua o mantua disposicion deu
+Contracte, ne poirà pas de nada manièra implicar renonciacion per la Partida
+interessada a se'n prevaler ulteriorament.
+
+11.3 Lo Contracte qu'anulla e que remplaça tota convencion anteriora, escriuta
+o orau, enter las Partidas suu medish objècte e que constitueish l'acòrd
+entièr enter las Partidas sus aqueth objècte . Nada addicion o modificacion
+aus tèrmes deu Contracte n'aurà pas efèit au respècte de las Partidas a mensh d'èste
+  hèita per escriut e signada peus lors representants devudament abilitats.
+
+11.4 Dens l'ipotèsi on ua o mantua de las disposicions deu Contracte
+que s'averaré contrari a ua lei o a un tèxte aplicader, existents o
+futurs, aquera lei o aqueth tèxte que prevaleré, e las Partidas que harén los
+emendaments necessaris entà se conformar ad aquera lei o ad aqueth tèxte.
+Totas las autas disposicions que demoraràn en vigor . Tot parièr, la
+nullitat, entà quauqua rason qui aqueth sia, d'ua de las disposicions deu
+Contracte ne saberé pas entrainar la nullitat de l'ensemble deu Contracte.
+
+
+ 11.5 LENGA
+
+Lo Contracte qu'ei redigit en lenga francesa e en lenga anglesa, aqueras
+duas versions hant egaument fe.
+
+Aquera version occitana deu contracte n'a pas nada valor legau en França pr'amor de l'Article 2 de la Constitucion de la Republica Francesa tant que nada revision constitucionau permeterà pas l'utilizacion de las lengas regionaus davant un tribunau francés mes l'espèr rèsta permetuda.
+
+ Article 12 - NAVÈRAS VERSIONS DEU CONTRACTE
+
+12.1 Tota persona qu'ei autorizada a copiar e distribuïr copias d'aqueth
+ Contracte.
+
+12.2 Entà ne preservar la coheréncia, lo tèxte deu Contracte qu'ei protegit
+e ne pòt pas estar modificat que peus autors de la licéncia, los quaus se
+resèrvan lo dret de publicar periodicament deus actualizadas o de
+navèras versions deu Contracte, qui possediràn cadua un numèro
+distint. Aqueras versions ulterioras que seràn susceptiblas de préner en
+compte navèras problematicas encontradas peus logiciaus liures.
+
+12.3 Tot Logiciau difusat devath ua version balhada deu Contracte ne poirà pas
+har l'objècte d'ua difusion ulteriora qui devath la medisha version deu
+Contracte o ua version posteriora, devath resèrva de las disposicions de
+l'article 5.3.4 <#compatibilitat>.
+
+
+ Article 13 - LEI APLICADER E COMPETENCE TERRITORIAU
+
+13.1 Lo Contracte qu'ei regit per la lei francesa . Las Partidas que convienen
+de temptar de reglar a la bona los desacòrds o litigis qui
+vienerén a se produsir per seguida o au parat deu Contracte.
+
+13.2 Fauta d'acòrd amiable dens un delai de dus (2) mes a comptar
+deu lor survenance e lhevat situacion relhevant d'ua procedura d'urgéncia,
+los desacòrds o litigis que seràn portats per la Partida mei diligenta
+davant los Tribunaus competents de París.
